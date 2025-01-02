@@ -29,4 +29,4 @@ Medieval town going virtual
 * To see what can i do with ThreeJS and Blender
 * To have fun
 
-### License [MIT](https://github.com/aljazmc/digital-scrapyard/blob/main/LICENSE)
+### License [MIT](https://github.com/aljazmc/poetovio-react-fiber-threejs-virtual-town-app/blob/main/LICENSE)

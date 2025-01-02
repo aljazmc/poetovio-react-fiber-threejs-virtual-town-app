@@ -1,0 +1,38 @@
+{
+  "name": "poetovio-react-fiber-threejs-virtual-town-app",
+  "version": "0.0.0",
+  "description": "Medieval town going virtual",
+  "main": "src/index.tsx",
+  "repository": "https://github.com/aljazmc/poetovio-react-fiber-threejs-virtual-town-app",
+  "author": "aljazmc <mlinaric.aljaz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@react-three/fiber": "^9.0.0-rc.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.4",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@types/three": "^0.171.0",
+    "esbuild": "^0.24.2",
+    "esbuild-jest-transform": "^2.0.1",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^28.10.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.3",
+    "globals": "^15.14.0",
+    "jest": "^30.0.0-alpha.6",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.19.0"
+  },
+  "scripts": {
+    "serve": "esbuild --loader:.ts=tsx src/index.tsx --outdir=www --bundle --servedir=www"
+  }
+}
